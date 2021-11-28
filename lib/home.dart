@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, use_key_in_widget_constructors
 import 'package:flutter/material.dart';
-import 'package:travel_blog/widgets/travel_blog.dart';
-import 'package:travel_blog/widgets/most_popular.dart';
+import 'package:travel_blog/travel_blog.dart';
+import 'package:travel_blog/most_popular.dart';
 
 class HomePage extends StatelessWidget {
   @override

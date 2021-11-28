@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:travel_blog/detail.dart';
-import 'package:travel_blog/model/travel.dart';
+import 'package:travel_blog/travel.dart';
 
 // ignore: use_key_in_widget_constructors, camel_case_types
 class travelblog extends StatelessWidget {
