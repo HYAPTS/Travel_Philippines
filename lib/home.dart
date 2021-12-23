@@ -9,19 +9,27 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-      backgroundColor: Colors.white,
+      centerTitle: true,   
+      title: Text('Travel Philippines',
+		style: TextStyle(
+      color: Colors.black,fontWeight: FontWeight.w700,
+      fontSize:25
+      
+    ),
+		      ),
+	  backgroundColor: Colors.lightGreenAccent[400],
       elevation: 0,
         // ignore: prefer_const_literals_to_create_immutables
-        actions:[
-          
+        actions:[   
           Padding(
-            padding: const EdgeInsets.all(20),
+            padding: const EdgeInsets.all(15),
             
             child: Icon(
               Icons.menu,
               size: 36.9,
               color: Colors.black,
             ),
+            
           )
         ],
       ),
@@ -44,11 +52,9 @@ class HomePage extends StatelessWidget {
              // ignore: prefer_const_literals_to_create_immutables
              children: [
              Text('Most Popular',
-            
              style: TextStyle(fontSize: 20),
              ),
              Text('View All',
-            
              style: TextStyle(fontSize: 16,color: Colors.redAccent[400]),
              )
            ],

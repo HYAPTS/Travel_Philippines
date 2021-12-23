@@ -28,12 +28,12 @@ class travelblog extends StatelessWidget {
         child: Stack(
           children: [
           Padding(
-            padding: const EdgeInsets.only(right: 20, bottom: 30),
+            padding: const EdgeInsets.only(right: 15, bottom: 30),
               child: ClipRRect(
                borderRadius: BorderRadius.circular(5),
                 child: Image.asset(
                 travel.url,
-                height: 370,
+                height: 320,
                 width: 400,
                 fit: BoxFit.cover,
                 ),
@@ -53,7 +53,7 @@ class travelblog extends StatelessWidget {
                    
                   style: 
                           // ignore: prefer_const_constructors
-                          TextStyle(color: Colors.black,
+                          TextStyle(color: Colors.black,fontWeight:FontWeight.w500,
                            fontSize:30,
                            height:1.0,
                            letterSpacing:1.0,
@@ -72,8 +72,8 @@ class travelblog extends StatelessWidget {
               ],
             ),
           ),
-          Positioned(
-            bottom: 0,
+    Positioned(
+            bottom: -10,
             right: 30,
             child: Container(
               width: 60,
@@ -83,13 +83,16 @@ class travelblog extends StatelessWidget {
                 borderRadius: BorderRadius.circular(30)
               ),
               // ignore: prefer_const_constructors
-              child: Icon(Icons.favorite_rounded,
-              color: Colors.limeAccent[400],
-              size: 4,
+              child: Icon(Icons.location_on,
+              color: Colors.redAccent[700],
+              size: 38,
+            
               ),
             ),
           )
-          ], 
+        ], 
+            
+           
         ),
       );
     }); 

@@ -39,7 +39,7 @@ class MostPopular extends StatelessWidget {
                 Material(color: Colors.transparent,
                 child: Text(travel.location,
                 // ignore: prefer_const_constructors
-                style: TextStyle( color: Colors.black,
+                style: TextStyle( color: Colors.black,fontWeight: FontWeight.w500,
                 fontSize: 19.0,
                 height:1.0,
               
